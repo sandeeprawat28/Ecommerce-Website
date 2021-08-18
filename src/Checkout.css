@@ -1,0 +1,47 @@
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout {
+    display: flex;
+    padding: 14px;
+    background-color: white;
+    height: max-content;
+    user-select: none;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.checkout__user {
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .checkout__ad {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2.5px;
+    }
+    .checkout {
+        padding: 5px;
+        flex-direction: column;
+    }
+    .checkout__user {
+        font-size: 16px;
+    }
+    .checkout__title {
+        font-size: 18px;
+    }
+    .empty > h2 {
+        font-size: 18.5px;
+    }
+    .empty > p {
+        font-size: 12px;
+    }
+}

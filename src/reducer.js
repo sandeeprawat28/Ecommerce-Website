@@ -1,0 +1,54 @@
+export const initialState = {
+    basket: [],
+    user: null,
+};
+
+export const getBasketTotal = (basket) => 
+ basket?.reduce((amount, item) => item.price + amount, 0);
+ 
+const reducer = (state, action) => {
+    console.log(action); 
+    switch(action.type) {
+        case "SET_USER": //user auth
+            return {
+                ...state,
+                user: action.user
+            }
+
+        case "ADD_TO_BASKET":
+        // Logic for adding items to basket
+        return {
+            ...state,
+            basket: [...state.basket, action.item],
+        };
+
+        case "EMPTY_BASKET":
+            return {
+                ...state,
+                basket: []
+            }
+    
+        case "REMOVE_FROM_BASKET":
+        // Logic for remove items from basket
+        //We cloned the basket
+        let newBasket = [...state.basket];
+        const index = state.basket.findIndex (
+            (basketItem) => basketItem.id === action.id
+            );
+
+        if (index >=0 ) {
+            // Items exists in Basket, remove it
+            newBasket.splice(index, 1);            
+        } else {
+
+        }
+
+        return { ...state, 
+                 basket: newBasket,
+                };
+    default:
+        return state;
+    }
+}
+
+export default reducer;
