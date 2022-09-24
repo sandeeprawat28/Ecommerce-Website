@@ -4,7 +4,7 @@ import "./Prime.css";
 function Prime() {
     return (
         <div className="prime">
-          <img className="banner" src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/engagement/newsletter/2018/Mar18/640X250.jpg" />
+          <img className="banner" src="https://www.cultofmac.com/wp-content/uploads/2016/07/Prime-Day-Banner.jpg" />
           <div className="prime__details">
           <img className="img" src="https://m.media-amazon.com/images/G/31/prime/detail_page/Prime_Detail_Page_PC_Benefits_Delivery_1344x526._CB485979851_.jpg" alt="" />
               <h1>Unlimited FREE fast delivery</h1>  

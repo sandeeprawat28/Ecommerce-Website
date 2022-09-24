@@ -1,7 +1,7 @@
 .prime {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .banner {

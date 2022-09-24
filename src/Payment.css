@@ -68,12 +68,7 @@ button {
         padding-top: 10px;
     }
     button {
-        width: 100%;
-    }
-    #btn_ {
-        padding: 1.5px;
-    }
-    #btn_:hover {
-        color: #000;
+        font-size: 14px;
+        border-radius: 8px;
     }
 }

@@ -62,8 +62,8 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     .product {
-        width: 90%;
-        margin: 5px;
+        width: 100%;
+        margin: 12px;
         padding: 5px 10px;
     }
     .product__info {
@@ -74,19 +74,16 @@ button:hover {
     .product > img {
         width: 100%;
         padding-top: 15px;
-        border-radius: 12px;
-        border: 2px solid rgba(193, 133, 199, 0.525);
     }
     .product > img:hover {
         transform: scale(1.02);
-        transition: transform .2s;
-        border: none;
     }
     .product__price {
         margin-top: 2.5px;
     }
     .product > button {
         margin: 20px 0;
+        font-size: 14px;
         border: 2px solid rgba(193, 133, 199, 0.525);
     }
 }

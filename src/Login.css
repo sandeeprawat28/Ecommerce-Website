@@ -1,15 +1,16 @@
 .login__logo {
-    width: 100px;
+    width: 180px;
     object-fit: contain;
     margin: 0 20px;
 }
 
 .login {
-    background-color: white;
+    background-color: rgba(153, 34, 218, 0.571);
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;   
+    justify-content: center;
 }
 
 .login__container {
@@ -17,7 +18,8 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 1px solid lightgrey;
+    border-radius: 12px;
+    border: 2px solid rgb(187, 187, 187);
 }
 
 .login__container > h1 {
@@ -27,9 +29,11 @@
 
 .login__container > form > input {
     height: 30px;
-    margin-bottom: 10px;
-    background-color: white;
+    margin: 10px 0;
+    background-color: transparent;
     width: 98%;
+    border: 1px solid;
+    outline: none;
 }
 
 .login__container > p {
@@ -38,22 +42,42 @@
 }
 
 .login__signInButton {
-    background-color: #f0c14b;
-    border-radius: 2px;
     width: 100%;
-    height: 30px;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    background-color: rgba(228, 226, 229, 0.679);
+    border-radius: 12px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
 }
 
 .login__registerButton {
-    border-radius: 2px;
     width: 100%;
-    height: 30px;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    background-color: rgba(228, 226, 229, 0.679);
+    border-radius: 12px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login__logo {
+        width: 150px;
+    }
+    .login__container > h1 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .login__signInButton {
+        font-size: 18px;
+    }
+    .login__registerButton {
+        font-size: 18px;
+    }
 }

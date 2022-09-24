@@ -11,20 +11,21 @@ function Orders() {
     useEffect(() => {
         if(user) {
             db
-            .collection('users')
-            .doc(user?.uid)
-            .collection('orders')
+            .collection('users')    //Accessign users DB
+            .doc(user?.uid)     //Getting specific user logged in
+            .collection('orders')       //Accessign user order
             .orderBy('created', 'desc')
-            .onSnapshot(snapshot => (
-                setOrders(snapshot.docs.map(doc => ({
-                    id: doc.id,
-                    data: doc.data()
-                })))
+            .onSnapshot(snapshot => (       //Realtime snapshot of DB
+                setOrders(snapshot.docs.map(doc => ({       //Going to all orders
+                    id: doc.id,     //Get user Id
+                    data: doc.data(),
+                }))
+                )
             ))
         } else {
-            setOrders([])
+            setOrders([]);
         }
-    }, [user])
+    }, [user]);
    
     return (
         <div className="orders">

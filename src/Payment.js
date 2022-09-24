@@ -1,13 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Payment.css";
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
-import { useState } from 'react';
 import CurrencyFormat from 'react-currency-format';
 import { getBasketTotal } from './reducer';
 import { Link, useHistory } from "react-router-dom";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
-import axios from 'axios';
+import axios from './axios';
 import { db } from './firebase';
 
 function Payment() {
@@ -29,14 +28,14 @@ function Payment() {
             const res = await axios ({
                 method: 'post',
                 //stripe expects the total in a currencies subuntis
-                url: `/payments/create?total=${getBasketTotal(basket)*100}`        //for rupee 1000
+                url: `/payments/create?total=${getBasketTotal(basket) * 100}`        //for rupee 1000
             })
             setClientSecret(res.data.clientSecret)
         }
         getClientSecret();
     }, [basket])
 
-    const handleSubmit =  async (event) => {
+    const handleSubmit =  async(event) => {
         //do all the fancy stripe stuff
         event.preventDefault();
         setProcessing(true);
@@ -47,7 +46,6 @@ function Payment() {
             }
         }).then(( {paymentIntent} ) => {
             //payment intent = payment confirmation
-
             db
             .collection('users')
             .doc(user?.uid)
