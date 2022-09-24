@@ -6,8 +6,7 @@
     margin: 10px;
     padding: 20px;
     width: 100%;
-    background: rgb(233,228,236);
-    background: linear-gradient(0deg, rgba(233,228,236,1) 0%, rgba(233,228,236,1) 28%, rgba(236,233,239,1) 31%, rgba(246,246,246,1) 40%, rgba(255,255,255,1) 41%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 100%);
+    background-color: rgb(255, 255, 255);
     min-width: 100px;
     border-radius: 12px;
     z-index: 1;
@@ -47,17 +46,15 @@
     padding: 12px 0;
     color: rgb(0, 0, 0);
     font-size: 19px;
-    background-color: rgba(206, 203, 208, 0.679);
+    background-color: aliceblue;
     border-radius: 12px;
     margin-top: 25px;
     border: none;
     cursor: pointer;
-    border: 1px solid rgba(98, 12, 236, 0.748);
 }
 
 button:hover {
-    color: white;
-    background-color: rgba(98, 12, 236, 0.748);
+    background-color: rgb(198, 197, 200)
 }
 
 @media screen and (max-width: 768px) {
@@ -83,7 +80,5 @@ button:hover {
     }
     .product > button {
         margin: 30px 0;
-        font-size: 14px;
-        border: 1px solid rgba(98, 12, 236, 0.748);
     }
 }

@@ -40,7 +40,7 @@ button {
     padding: 5px 0;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    background-color: rgba(206, 203, 208, 0.679);
+    background-color: aliceblue;
     border-radius: 12px;
     border: none;
     cursor: pointer;
@@ -68,7 +68,6 @@ button {
         padding-top: 10px;
     }
     button {
-        font-size: 14px;
         border-radius: 8px;
     }
 }

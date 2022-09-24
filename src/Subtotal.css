@@ -30,7 +30,7 @@
     padding: 10px 0;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    background-color: rgba(206, 203, 208, 0.679);
+    background-color: aliceblue;
     border-radius: 12px;
     border: none;
     margin-top: 15px;
@@ -38,8 +38,7 @@
 }
 
 button:hover {
-    color: white;
-    background-color: rgba(155, 29, 223, 0.59);
+    background-color: rgba(211, 210, 212, 0.59);
 }
 
 @media screen and (max-width: 768px) {
@@ -55,9 +54,6 @@ button:hover {
     }
     .subtotal__gift {
         padding-top: 2px;
-        font-size: 12px;
-    }
-    .subtotal > button {
         font-size: 12px;
     }
 }

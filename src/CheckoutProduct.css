@@ -32,15 +32,14 @@
     padding: 10px 0;
     color: rgb(0, 0, 0);
     font-size: 17px;
-    background-color: rgba(206, 203, 208, 0.679);
+    background-color: aliceblue;
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    color: white;
-    background-color: rgba(155, 29, 223, 0.59);
+    background-color: rgb(235, 231, 238)
 }
 
 @media screen and (max-width: 768px) {
@@ -51,8 +50,6 @@ button:hover {
         justify-content: center;
         margin: 10px;
         padding: 20px;
-        background: rgb(233,228,236);
-        background: linear-gradient(0deg, rgba(233,228,236,1) 0%, rgba(233,228,236,1) 28%, rgba(236,233,239,1) 31%, rgba(246,246,246,1) 40%, rgba(255,255,255,1) 41%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 100%);
         min-width: 100px;
         border: 1px solid rgba(222, 218, 218, 0.855);
         border-radius: 12px;
@@ -64,10 +61,7 @@ button:hover {
     } 
     .checkoutProduct__title {
         font-size: 11.5px;
-    }  
-    .checkoutProduct__info > button {
-        font-size: 12px;
-    }  
+    } 
     .checkoutProduct__price {
         padding-top: 5px;
     }
