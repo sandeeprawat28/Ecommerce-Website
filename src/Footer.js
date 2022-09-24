@@ -54,10 +54,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <div className="copyright__details">
-                <p>Condition of Use</p>
-                <p>Privacy Notice</p>
-                <p>Interest-Based Ads</p>
-                <p>&copy; 1996-2021, Amazon.com, Inc. or its Affilates</p>
+                 <p>&copy; 1996-2022, Amazon.com, Inc. or its Affilates</p>
                 </div>
             </div>
         </div>

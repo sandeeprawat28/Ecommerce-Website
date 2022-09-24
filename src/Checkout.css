@@ -5,8 +5,7 @@
 
 .checkout {
     display: flex;
-    padding: 14px;
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     height: max-content;
     user-select: none;
 }

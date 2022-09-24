@@ -138,7 +138,7 @@ function Payment() {
                                     prefix={"$"}
                                     />
                                     <button id="btn_" disabled={processing || disabled || succeeded}>
-                                        <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                                        <span>{processing ? <p>Processing...</p> : "Buy Now"}</span>
                                     </button>
                             </div>
                             {/* Error */}

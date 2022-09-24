@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    padding: 10px;
 }
 
 .header__logo {
@@ -37,7 +38,7 @@
 }
 
 .header__option1 {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .header__option2 {

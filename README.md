@@ -1,4 +1,4 @@
-# Amazon-Clone
+# Amazon Clone 🛍️
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
