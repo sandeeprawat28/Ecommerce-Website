@@ -4,9 +4,8 @@ import Product from './Product';
 
 function Home() {
     return (
-        <div className="home">
-           <img className="home__image" src="" alt=""/> 
-           <img className="home__image2" src="https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Amazon-Great-India-2022-sale.jpg" alt=""/> 
+        <div className="home"> 
+           <img className="home__image" src="https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Amazon-Great-India-2022-sale.jpg" alt=""/> 
            <div className="home__row1">
             <div className="home_row1">
                 <Product
@@ -40,7 +39,7 @@ function Home() {
            <div className="home_row2">
             <Product
             id="68552"
-            title="Nikon D3500 DX-Format DSLR Two Lens Kit with AF-P DX Nikkor 18-55mm f/3.5-5.6G VR & AF-P DX Nikkor 70-300mm f/4.5-6.3G ED (Black)Sensor: APS-C CMOS Sensor with 24.2 MP."
+            title="Nikon D3500 DX-Format DSLR Two Lens Kit with AF-P DX Nikkor 18-55mm f/3.5-5.6G VR & AF-P DX Nikkor 70-300mm f/4.5-6.3G ED (Black)Sensor: APS-C CMOS."
             price={68.72}
             rating={5}
             image ="https://m.media-amazon.com/images/I/61A4tg5IFhL._SL1000_.jpg" alt=""
@@ -49,7 +48,7 @@ function Home() {
            <div className="home_row2">
             <Product
             id="68552"
-            title="SYGA 1 Piece Orange Coloured DSLR Camera Shoulder Strap Good design - Alled camera neck shoulder belt strap has an comfortable elastic section around the neck to reduce neck tension."
+            title="SYGA 1 Piece Orange Coloured DSLR Camera Shoulder Strap Good design - Alled camera neck shoulder belt strap has an comfortable elastic section."
             price={48.32}
             rating={5}
             image ="https://images-eu.ssl-images-amazon.com/images/I/41GnhNo8OOL._SX300_SY300_QL70_FMwebp_.jpg" alt=""
@@ -89,7 +88,7 @@ function Home() {
            <div className="home_row4">
             <Product
             id="68552"
-            title="Nikon D3500 DX-Format DSLR Two Lens Kit with AF-P DX Nikkor 18-55mm f/3.5-5.6G VR & AF-P DX Nikkor 70-300mm f/4.5-6.3G ED (Black)Sensor: APS-C CMOS Sensor with 24.2 MP."
+            title="Nikon D3500 DX-Format DSLR Two Lens Kit with AF-P DX Nikkor 18-55mm f/3.5-5.6G VR & AF-P DX Nikkor 70-300mm f/4.5-6.3G ED (Black)Sensor: APS-C CMOS."
             price={68.72}
             rating={5}
             image ="https://m.media-amazon.com/images/I/61A4tg5IFhL._SL1000_.jpg" alt=""
@@ -98,7 +97,7 @@ function Home() {
            <div className="home_row4">
             <Product
             id="689972"
-            title="Zebronics Zeb-Thunder Wireless BT Headphone Comes with 40mm Drivers, AUX Connectivity, Built in FM, Call Function, 9Hrs* Playback time and Supports Micro SD Card (Red)."
+            title="Zebronics Zeb-Thunder Wireless BT Headphone Comes with 40mm Drivers, AUX Connectivity, Built in FM, Call Function, 9Hrs* Playback time and Supports."
             price={11.52}
             rating={5}
             image ="https://m.media-amazon.com/images/I/81cJ1kUT1LL._SY450_.jpg" alt=""
@@ -107,7 +106,7 @@ function Home() {
            <div className="home_row4">
             <Product
             id="865972"
-            title="pTron Studio Lite Stereo Sound Wired Headphones, Ergonomic Over-Ear Headset for Work from Home, Adjustable Mic & Integrated Volume Control, 3.5mm Aux Jack & 1.3 Meter Tangle-Free Cord."
+            title="pTron Studio Lite Stereo Sound Wired Headphones, Ergonomic Over-Ear Headset for Work from Home, Adjustable Mic & Integrated Volume Control."
             price={13.02}
             rating={5}
             image ="https://images-eu.ssl-images-amazon.com/images/I/418vULMAb-L._SX300_SY300_QL70_FMwebp_.jpg" alt=""

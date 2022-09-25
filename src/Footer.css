@@ -63,7 +63,7 @@
 }
 
 .copyright__details > p {
-    font-size: 14px;
+    font-size: 15px;
     padding: 0 20px;
     gap: 12px;
     cursor: pointer;
@@ -101,7 +101,7 @@
         padding: 8px;    
     }
     .copyright__details > p {
-        font-size: 10px;
+        font-size: 12px;
         padding: 0 4px;
         gap: 2px;
     }

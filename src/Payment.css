@@ -35,17 +35,24 @@ h3 {
     flex: 0.8;
 }
 
-button {
+.payment__priceContainer > button {
     width: 200px;
     padding: 8px 0;
     color: rgb(0, 0, 0);
     font-size: 18px;
     background-color: aliceblue;
     border-radius: 12px;
-    border: none;
+    border: 1px solid;
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.payment__priceContainer > button:hover {
+    color: aliceblue;
+    background-color: #cd9842;
+    box-shadow: 8px 8px 10px #cd984271;
+}
+
 
 @media screen and (max-width: 768px) {
     .payment__container > h1 {
@@ -67,8 +74,5 @@ button {
     }
     .payment__details {
         padding-top: 10px;
-    }
-    button {
-        border-radius: 8px;
     }
 }
