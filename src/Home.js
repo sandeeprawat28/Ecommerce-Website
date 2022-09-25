@@ -5,7 +5,8 @@ import Product from './Product';
 function Home() {
     return (
         <div className="home">
-           <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/Events/Pug/GW/Event_hero_Teaser_PC_1500X600_eng._CB664069228_.jpg" alt=""/> 
+           <img className="home__image" src="" alt=""/> 
+           <img className="home__image2" src="https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Amazon-Great-India-2022-sale.jpg" alt=""/> 
            <div className="home__row1">
             <div className="home_row1">
                 <Product
