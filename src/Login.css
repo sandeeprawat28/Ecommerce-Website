@@ -46,11 +46,17 @@
     padding: 10px 0;
     color: rgb(0, 0, 0);
     font-size: 19px;
-    background-color: rgba(228, 226, 229, 0.679);
+    background-color: aliceblue;
     border-radius: 12px;
     margin-top: 15px;
-    border: none;
+    border: 1px solid;
     cursor: pointer;
+}
+
+.login__signInButton:hover {
+    color: aliceblue;
+    background-color: #cd9842;
+    box-shadow: 8px 8px 10px #cd984271;
 }
 
 .login__registerButton {
@@ -58,12 +64,19 @@
     padding: 10px 0;
     color: rgb(0, 0, 0);
     font-size: 19px;
-    background-color: rgba(228, 226, 229, 0.679);
+    background-color: aliceblue;
     border-radius: 12px;
     margin-top: 15px;
-    border: none;
+    border: 1px solid;
     cursor: pointer;
 }
+
+.login__registerButton:hover {
+    color: aliceblue;
+    background-color: #cd9842;
+    box-shadow: 8px 8px 10px #cd984271;
+}
+
 
 
 @media screen and (max-width: 768px) {
