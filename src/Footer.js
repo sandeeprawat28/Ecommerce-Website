@@ -3,6 +3,8 @@ import "./Footer.css";
 
 function Footer() {
 
+    const year = new Date().getFullYear();
+
     return (
         <div className="footer-container">
             <div className="footer__details">
@@ -53,7 +55,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <div className="copyright__details">
-                 <p>&copy; 1996-2022 | Amazon.com</p>
+                 <p>&copy; {year} Amazonshop | Saandeep Rawat</p>
                 </div>
             </div>
         </div>

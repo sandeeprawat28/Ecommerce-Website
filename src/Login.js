@@ -46,8 +46,8 @@ function Login() {
                     <input value={password} onChange={event => setPassword(event.target.value)} type="password"/>
                     <button onClick={login} type="submit" className="login__signInButton">Sign In</button>
                 </form>
-                <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
-                <button onClick={register} className="login__registerButton">Create your Amazon Account</button>
+                <p>By continuing, you agree to Amazonshop's Conditions of Use and Privacy Notice.</p>
+                <button onClick={register} className="login__registerButton">Create your Account</button>
             </div>
 
         </div>
