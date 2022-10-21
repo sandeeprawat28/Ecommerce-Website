@@ -5,7 +5,7 @@ import Product from './Product';
 function Home() {
     return (
         <div className="home"> 
-           <img className="home__image" src="https://static.vecteezy.com/system/resources/thumbnails/004/299/835/small/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg" alt=""/> 
+           <img className="home__image" src="https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Amazon-Great-India-2022-sale.jpg" alt=""/> 
            <div className="home__row1">
             <div className="home_row1">
                 <Product

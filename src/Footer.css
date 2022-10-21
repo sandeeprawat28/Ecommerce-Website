@@ -43,8 +43,8 @@
 
 .details__section > ul > li {
     color: rgb(226, 225, 225);
-    padding-top: 5px;
-    font-size: 15px;
+    padding-top: 3px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -101,7 +101,7 @@
         padding: 8px;    
     }
     .copyright__details > p {
-        font-size: 12px;
+        font-size: 13px;
         padding: 0 4px;
         gap: 2px;
     }

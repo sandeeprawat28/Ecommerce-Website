@@ -11,49 +11,49 @@ function Footer() {
                     <ul>
                         <li>Careers</li>
                         <li>Blog</li>
-                        <li>About Ecommerceify</li>
+                        <li>About Amazon</li>
                         <li>Investor Relations</li>
-                        <li>Ecommerceify Devices</li>
+                        <li>Amazon Devices</li>
                     </ul>
                 </div>
                 <div className="details__section">
                     <h3>Make Money with Us</h3>
                     <ul>
-                        <li>Sell products on Ecommerceify</li>
-                        <li>Sell on Ecommerceify Business</li>
-                        <li>Sell apps on Ecommerceify</li>
+                        <li>Sell products on Amazon</li>
+                        <li>Sell on Amazon Business</li>
+                        <li>Sell apps on Amazon</li>
                         <li>Become an Affilate</li>
                         <li>Advertise Your Products</li>
                         <li>Self-Publish with us</li>
-                        <li>Host an Ecommerceify Hub</li>
+                        <li>Host an Amazon Hub</li>
                     </ul>
                 </div>
                 <div className="details__section">
-                    <h3>Ecommerceify Payment Products</h3>
+                    <h3>Amazon Payment Products</h3>
                     <ul>
-                        <li>Ecommerceify Business Card</li>
+                        <li>Amazon Business Card</li>
                         <li>Shop with Points</li>
                         <li>Reload Your Balance</li>
-                        <li>Ecommerceify Currency Converter</li>
+                        <li>Amazon Currency Converter</li>
                     </ul>
                 </div>
                 <div className="details__section">
                     <h3>Let Us Help You</h3>
                     <ul>
-                        <li>Ecommerceify and COVID-19</li>
+                        <li>Amazon and COVID-19</li>
                         <li>Your Account</li>
                         <li>Your Orders</li>
                         <li>Shipping Rates & Policies</li>
                         <li>Returns & Replacements</li>
                         <li>Manage Your Content and Devices</li>
-                        <li>Ecommerceify Assistant</li>
+                        <li>Amazon Assistant</li>
                         <li>Help</li>
                     </ul>
                 </div>
             </div>
             <div className="copyright">
                 <div className="copyright__details">
-                 <p>&copy; 2000-2022 | Ecommerceify</p>
+                 <p>&copy; 1996-2022 | Amazon.com</p>
                 </div>
             </div>
         </div>
