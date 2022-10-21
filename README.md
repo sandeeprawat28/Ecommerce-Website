@@ -1,14 +1,14 @@
-# Amazon Clone 🛍️
+# Ecommerceify 🛍️
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
 
-## 🔴 <a id="demo" href="https://clone-7cb92.web.app/" target="_blank"> LIVE DEMO</a>
+## 🔴 <a id="demo" href="https://movieshouse.vercel.app/" target="_blank"> LIVE DEMO</a>
 
-<img src="https://github.com/sandeeprawat28/E-Commerce-Website-Clone/blob/master/demo.png" width="100%">
+<img src="https://github.com/sandeeprawat28/Ecommerceify/blob/master/demo.png" width="100%">
 
 # Tech-Stack :
-<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Redux" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/><img alt="" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Redux" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/><img alt="vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/><img alt="azure" src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/><img alt="stripe" src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white"/>
 
 # Features :
 - Login and Logout
